@@ -1,0 +1,41 @@
+import turtle
+
+
+
+#circle of square
+
+
+
+my_turtle=turtle.Turtle()
+
+my_turtle.speed(10)
+
+
+def square(length,angle):
+
+  
+  my_turtle.forward(length)
+
+  my_turtle.right(angle)
+
+  my_turtle.forward(length)
+
+  my_turtle.right(angle)
+
+  my_turtle.forward(length)
+
+  my_turtle.right(angle)
+
+  my_turtle.forward(length)
+
+  my_turtle.right(angle)
+
+
+
+for i in range(40):
+
+  square(100,90)
+
+  my_turtle.right(10)
+
+  square(100,90)
